@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+
+    <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
+    <title>Kirgiz teknõs</title>
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------->
+    <nav id="tartalomugras">
+        <h2 class="rejtett">Ugrás az oldalon belül</h2>
+        <a href="#text_box"> Ugrás a tartalomra</a>
+      </nav>
+      <div id="overlay"></div>
+      <div id="navigation-hud">
+          <div id="side-nav" class="closed">
+              <div class="menu-toggle" onclick="toggleMenu()">
+                  <div class="button-element"></div>
+              </div>
+              <a href="form.html" class="menu_btn"> Rate Us </a>
+              <a href="table.html" class="menu_btn"> Táblázat </a>
+              <a href="index.html" class="menu_btn">Kezdőlap</a>
+              <div id="menu-table-wrapper" class="hidden">
+                  <table>
+                      <tr>
+                          <th>Pikkelyesek</th>
+                          <th>Gyíkok</th>
+                          <th>Teknősök</th>
+                      </tr>
+                      <tr>
+                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+  
+                      </tr>
+                      <tr>
+                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                      </tr>
+                  </table>
+  
+                  <ul class="menu_list">
+                      <li>Pikkelyesek
+                          <ul>
+                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                          </ul>
+                      </li>
+                      <li>Gyíkok
+                          <ul>
+                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                          </ul>
+                      </li>
+                      <li>Teknősök
+                          <ul>
+                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                          </ul>
+                      </li>
+  
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </div>
+    <!------------------------------------------------------------------------------------->
+    <div class="background" id="kirgiz">
+        <h1>Kirgiz teknős</h1>
+    </div>
+    <div class="info_wrapper">
+        <div class="text_box">
+            <div id="options_bar">
+                <button class="option_choice" onclick="openContent(event,'info')" id="defaultContent"><i
+                        class="fas fa-info"></i></button>
+                <button class="option_choice" onclick="openContent(event,'food')"><i
+                        class="fas fa-utensils"></i></button>
+                <button class="option_choice" onclick="openContent(event,'enviroment')"><i
+                        class="fas fa-thermometer-three-quarters"></i><i class="fas fa-leaf"></i></button>
+                <button class="option_choice" onclick="openContent(event,'breed')"><i
+                        class="fas fa-heart"></i></button>
+            </div>
+
+            <article id="info" class="content">
+                <h3>Info</h3>
+                <ul>
+                    <li>
+                        Hátpáncélja a többi szárazföldi teknõshöz képest erõsen lapított, felülnézetben pedig majdnem
+                        szabályos kör alakú
+                    </li>
+                    <li>
+                        A farok feletti páncélrész osztatlan. Vaskos mellsõ végtagjait nagyméretû szarupikkelyek
+                        borítják
+                    </li>
+                    <li>
+                        A sztyeppi teknõsök – bizonyos feltételek figyelembevételével – problémamentesen nevelhetõk
+                        szobai terráriumban is, az állatok számára azonban optimálisabb a szabadföldi tartás.
+                    </li>
+                </ul>
+            </article>
+            <article id="food" class="content">
+                <h3>Kaja</h3>
+                <ul>
+                    <li>
+                        Eleségük 99%-a növényi eredetû anyagokból tevõdik össze, melynek zömét a fûfélék alkotják, majd
+                        a saláta, gyermekláncfû, herefélék, tyúkhúr, reszelt sárgarépa, sütõtök kerülnek sorra.
+                    </li>
+                    <li>
+                        Gyümölcsök közül darabolt alma, dinnye, eper, málna, õszibarack stb. adható
+                    </li>
+                    <li>
+                        Alkalmanként kelkáposzta levelet, paradicsomot, zöldbabot, borsót és áztatott gabonafélével is
+                        megkínálhatjuk az állatokat.
+                    </li>
+                </ul>
+            </article>
+            <article id="enviroment" class="content">
+                <h3>Kornyezet</h3>
+                <ul>
+                    <li>
+                        A kertben egy elkerített területet készítsünk számukra. A kerítés alapja legalább 40–50
+                        centiméterre legyen a talajszint alatt, mert ellenkezõ esetben elõfordulhat, hogy a teknõsök
+                        “kiássák” magukat.
+                    </li>
+                    <li>
+                        Nagy mozgásigényük miatt szinte állandóan vándorolnak, miközben az útjukba kerülõ növényzetet
+                        eltiporják, ezért “birodalmukban” csak fû, illetve néhány fa vagy árnyékot adó cserje legyen.
+                    </li>
+                    <li>
+                        A terrárium hûvösebb sarkában alakítsunk ki búvóhelyet. Ez lehet egy kisebb faláda, üreges
+                        fatörzs vagy betonba ágyazott kövek.
+                    </li>
+                    <li>
+                        Lehetõség szerint a tartóedényüket a szoba napsütötte, világosabb részébe tegyük. Ha erre nincs
+                        mód, a szükséges 10–12 órás megvilágítást mesterséges fényforrás segítségével kell
+                        biztosítanunk.
+                    </li>
+
+                </ul>
+            </article>
+            <article id="breed" class="content">
+                <h3>Gondozás</h3>
+                <ul>
+                    <li>
+                        Mindig mossunk kezet az állat megfogása előtt és után is,
+                    </li>
+                    <li>
+                        Etessük kézből, így könnyebben hozzászokik a látványunkhoz, és megjegyzi, hogy mi a barátai
+                        vagyunk
+                    </li>
+                    <li>
+                        Sose emeljük fel a farkánál fogva és ne szorítsuk meg a testét
+                    </li>
+                    <li>
+                        Mindig alulról közelítsük meg, ne felülről/hátulról és semmiképpen se hirtelen!
+                    </li>
+                    <li>
+                        Az állat számára idegen embereknek ne engedjük, hogy hozzáérjenek
+                    </li>
+                </ul>
+            </article>
+
+        </div>
+        <div class="side_notes">
+            <h2>Galéria</h2>
+            <figure>
+                <a target="_blank" href="Images/kirgizthumb.jpg">
+                    <img src="Images/kirgizthumb.jpg" alt="kirgiz teknos kép">
+                    <figcaption>Aranyos kirgiz teknős </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a target="_blank" href="Images/kirgizthumb2.jpg">
+                    <img src="Images/kirgizthumb2.jpg" alt="kirgiz teknos kép">
+                    <figcaption>És még egy</figcaption>
+                </a>
+            </figure>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------------------------------------------------------------------------------------->
+    <div class="footer">
+        <script src="script.js"></script>
+        <div class="holder">
+            <div class="line"></div>
+            <div class="logo_holder">
+                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
+                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
+                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
+                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+        <table class="footer_menu">
+            <tr>
+                <td>
+                    <a href="index.html" class="menu_choice"> Kezdőlap </a>
+                </td>
+                <td>
+                    <a href="form.html" class="menu_choice"> Értékeljen </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="table.html" class="menu_choice"> Táblázat </a>
+                </td>
+                <td>
+                    <a href="#" class="menu_choice"> A tetejére </a>
+                </td>
+            </tr>
+        </table>
+        <footer>Készitette : Gál Attila  <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+    </div>
+</body>
+
+
+</html>

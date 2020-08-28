@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/styles.css" />
+    <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
+    <title>Hüllők</title>
+</head>
+
+<body>
+
+    <div id="overlay"></div>
+    <div id="navigation-hud">
+        <div id="side-nav" class="closed">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="button-element"></div>
+            </div>
+            <a href="form.html" class="menu_btn"> Rate Us </a>
+            <a href="table.html" class="menu_btn"> Táblázat </a>
+            <a href="index.html" class="menu_btn">Kezdőlap</a>
+            <div id="menu-table-wrapper" class="hidden">
+                <table>
+                    <tr>
+                        <th>Pikkelyesek</th>
+                        <th>Gyíkok</th>
+                        <th>Teknősök</th>
+                    </tr>
+                    <tr>
+                        <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                        <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                        <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                        <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                        <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                        <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                    </tr>
+                </table>
+
+                <ul class="menu_list">
+                    <li>Pikkelyesek
+                        <ul>
+                            <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                            <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                            <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                        </ul>
+                    </li>
+                    <li>Gyíkok
+                        <ul>
+                            <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                            <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                            <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                            <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                        </ul>
+                    </li>
+                    <li>Teknősök
+                        <ul>
+                            <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                            <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="background" id="kezdolap">
+        <div class="Title">
+            <h1>Hüllő kiskedvencek</h1>
+            <div class="line"></div>
+        </div>
+        <div class="main_text">
+            <h1>Welcome to the jungle</h1>
+        </div>
+    </div>
+
+    <div class="video_holder">
+        <video controls poster="Images/snapshot.jpg">
+            <source src="Images/Reptiles.mp4" type="video/mp4">
+        </video>
+        <br>
+        <a target="_blank" href="leiras.txt">Videó leírása</a>
+    </div>
+
+    <div class="footer">
+        <div class="holder">
+            <div class="line"></div>
+            <nav class="logo_holder">
+                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
+                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
+                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
+                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+            </nav>
+        </div>
+        <table class="footer_menu">
+            <tr>
+                <td>
+                    <a href="index.html" class="menu_choice"> Kezdőlap </a>
+                </td>
+                <td>
+                    <a href="form.html" class="menu_choice"> Értékeljen </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="table.html" class="menu_choice"> Táblázat </a>
+                </td>
+                <td>
+                    <a href="#" class="menu_choice"> A tetejére </a>
+                </td>
+            </tr>
+        </table>
+        <footer>Készitette : Gál Attila <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+    </div>
+    <script src="script.js"> </script>
+</body>
+
+</html>

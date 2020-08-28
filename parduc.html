@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+
+    <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
+    <title>párduckaméleon</title>
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------->
+    <nav id="tartalomugras">
+        <h2 class="rejtett">Ugrás az oldalon belül</h2>
+        <a href="#text_box"> Ugrás a tartalomra</a>
+      </nav>
+      <div id="overlay"></div>
+      <div id="navigation-hud">
+          <div id="side-nav" class="closed">
+              <div class="menu-toggle" onclick="toggleMenu()">
+                  <div class="button-element"></div>
+              </div>
+              <a href="form.html" class="menu_btn"> Rate Us </a>
+              <a href="table.html" class="menu_btn"> Táblázat </a>
+              <a href="index.html" class="menu_btn">Kezdőlap</a>
+              <div id="menu-table-wrapper" class="hidden">
+                  <table>
+                      <tr>
+                          <th>Pikkelyesek</th>
+                          <th>Gyíkok</th>
+                          <th>Teknősök</th>
+                      </tr>
+                      <tr>
+                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+  
+                      </tr>
+                      <tr>
+                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                      </tr>
+                  </table>
+  
+                  <ul class="menu_list">
+                      <li>Pikkelyesek
+                          <ul>
+                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                          </ul>
+                      </li>
+                      <li>Gyíkok
+                          <ul>
+                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                          </ul>
+                      </li>
+                      <li>Teknősök
+                          <ul>
+                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                          </ul>
+                      </li>
+  
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </div>
+    <!------------------------------------------------------------------------------------->
+    <div class="background" id="parduc">
+        <h1>Párduc kaméleon</h1>
+    </div>
+    <div class="info_wrapper">
+        <div class="text_box">
+            <div id="options_bar">
+                <button class="option_choice" onclick="openContent(event,'info')" id="defaultContent"><i
+                        class="fas fa-info"></i></button>
+                <button class="option_choice" onclick="openContent(event,'food')"><i
+                        class="fas fa-utensils"></i></button>
+                <button class="option_choice" onclick="openContent(event,'enviroment')"><i
+                        class="fas fa-thermometer-three-quarters"></i><i class="fas fa-leaf"></i></button>
+                <button class="option_choice" onclick="openContent(event,'breed')"><i
+                        class="fas fa-heart"></i></button>
+            </div>
+
+            <article id="info" class="content">
+                <h3>Info</h3>
+                <ul>
+                    <li>
+                        Ez a gyönyörű és rendkívül változatos színekben pompázó kaméleonfaj a természetben Madagaszkár szigetein, Mauritiuson és Réunion szigetén is megtalálható
+                    </li>
+                    <li>
+                        A párás, sűrű lombok között tölti napjait, talajra csak ritkán merészkedik.
+                    </li>
+                    <li>
+                        A hímek varázslatosan néznek ki, vannak színváltozatok egészen az égkéktől a napsárgán át a vörösig, míg a nőstények általában lila és barackszínben pompáznak.
+                    </li>
+                    <li>
+                        Színüket hangulatuktól és egészségük állapotától függően változtatják, ellenben azzal a tévhittel, hogy a környezetükbe való beolvadás lenne a cél.
+                    </li>
+                </ul>
+            </article>
+            <article id="food" class="content">
+                <h3>Kaja</h3>
+                <ul>
+                    <li>
+                        Az állatot nappali órákban, tehát maximum délután 3-4-ig bezárólag meg kell etetni. 
+                    </li>
+                    <li>
+                        Növényi táplálékot egyáltalán nem fogyaszt (előfordul, hogy a terráriumi élő növényzetet megkóstolja, de nincs számára tápértéke). 
+                    </li>
+                    <li>
+                        Kizárólag az élő, mozgó eleséget fogadja el, ez pedig lehet sáska, tücsök, csótány, különféle lárvák.
+                    </li>
+                    <li>
+                        A párduckaméleon számára nagyon fontos a megfelelő folyadékbevitel. A természetben a pára lecsapódása által képződött cseppecskéket iszogatja le a falevelekről, állóvízből sajnos nem iszik, ugyanis nem ismeri fel.
+                    </li>
+                    <li>
+                        Terráriumi körülmények között kézi permetezővel tudjuk utánozni eredeti élőhelyét, valamint emellett folyamatosan kínáljunk vizet neki fecskendőből/pipettából.
+                    </li>
+                </ul>
+            </article>
+            <article id="enviroment" class="content">
+                <h3>Kornyezet</h3>
+                <ul>
+                    <li>
+                        Nagyobb helyigényű állat, nagyjából 50x40x90 cm-es, álló helyzetű terráriumra van szüksége 1 db kifejlett állatnak.
+                    </li>
+                    <li>
+                        aktuális testhosszának megfelelő terráriumot, igényeinek megfelelő felszereléseket és
+                        természetesen egészséges és kiváló tápértékű eleségállatot.
+                    </li>
+                    <li>
+                        Szépen, sűrűn be kell neki ágakkal rendezni, melyeken függőlegesen és vízszintesen is mozoghat. 
+                    </li>
+                    <li>
+                        Fontos, hogy jól szellőzzön a terrárium, és legyen benne sok szép műnövény is benne (esetleg igazi növényt is betehetünk). 
+                    </li>
+                    <li>
+                        Aljzatnak a tőzeget, fakérget, kókuszrostot javasoljuk. Nem javasolt egyszerre többet tartani, kizárólag egy fér meg egy terráriumban, több állattal nem jön ki jól, bánthatják egymást.
+                    </li>
+
+                </ul>
+            </article>
+            <article id="breed" class="content">
+                <h3>Gondozás</h3>
+                <ul>
+                    
+                </ul>
+            </article>
+
+        </div>
+        <div class="side_notes">
+            <h2>Galéria</h2>
+            <a target="_blank" href="Images/parducthumb.jpg">
+                <img src="Images/parducthumb.jpg" alt="parduc kameleon kép">
+              </a> 
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------------------------------------------------------------------------------------->
+    <div class="footer">
+        <script src="script.js"></script>
+        <div class="holder">
+            <div class="line"></div>
+            <div class="logo_holder">
+                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
+                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
+                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
+                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+        <table class="footer_menu">
+            <tr>
+                <td>
+                    <a href="index.html" class="menu_choice"> Kezdőlap </a>
+                </td>
+                <td>
+                    <a href="form.html" class="menu_choice"> Értékeljen </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="table.html" class="menu_choice"> Táblázat </a>
+                </td>
+                <td>
+                    <a href="#" class="menu_choice"> A tetejére </a>
+                </td>
+            </tr>
+        </table>
+        <footer>Készitette : Gál Attila  <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+    </div>
+</body>
+
+
+</html>

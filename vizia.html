@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/styles.css">
+
+    <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
+    <title>Viziagáma</title>
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------->
+    <nav id="tartalomugras">
+        <h2 class="rejtett">Ugrás az oldalon belül</h2>
+        <a href="#text_box"> Ugrás a tartalomra</a>
+      </nav>
+      <div id="overlay"></div>
+      <div id="navigation-hud">
+          <div id="side-nav" class="closed">
+              <div class="menu-toggle" onclick="toggleMenu()">
+                  <div class="button-element"></div>
+              </div>
+              <a href="form.html" class="menu_btn"> Rate Us </a>
+              <a href="table.html" class="menu_btn"> Táblázat </a>
+              <a href="index.html" class="menu_btn">Kezdőlap</a>
+              <div id="menu-table-wrapper" class="hidden">
+                  <table>
+                      <tr>
+                          <th>Pikkelyesek</th>
+                          <th>Gyíkok</th>
+                          <th>Teknősök</th>
+                      </tr>
+                      <tr>
+                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+  
+                      </tr>
+                      <tr>
+                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                      </tr>
+                  </table>
+  
+                  <ul class="menu_list">
+                      <li>Pikkelyesek
+                          <ul>
+                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                          </ul>
+                      </li>
+                      <li>Gyíkok
+                          <ul>
+                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                          </ul>
+                      </li>
+                      <li>Teknősök
+                          <ul>
+                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                          </ul>
+                      </li>
+  
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </div>
+    <!------------------------------------------------------------------------------------->
+    <div class="background" id="vizia">
+        <h1>Viziagáma</h1>
+    </div>
+    <div class="info_wrapper">
+        <div class="text_box">
+            <div id="options_bar">
+                <button class="option_choice" onclick="openContent(event,'info')" id="defaultContent"><i
+                        class="fas fa-info"></i></button>
+                <button class="option_choice" onclick="openContent(event,'food')"><i
+                        class="fas fa-utensils"></i></button>
+                <button class="option_choice" onclick="openContent(event,'enviroment')"><i
+                        class="fas fa-thermometer-three-quarters"></i><i class="fas fa-leaf"></i></button>
+                <button class="option_choice" onclick="openContent(event,'breed')"><i
+                        class="fas fa-heart"></i></button>
+            </div>
+            
+        <article id="info" class="content">
+            <h3>Info</h3>
+            <ul>
+                <li>
+                    A víziagáma Ázsia déli és keleti részein honos, ahol a tavacskák, folyók partjain éldegél.
+                </li>
+                <li>
+                    Leginkább a nyílt területeket kedveli, de nem túl válogatós. Istállókban, esőerdőkben, alacsony
+                    füvű mezőkön, szavannákon is találkozhatunk vele.
+                </li>
+                <li>
+                    Nincs mérge, fojtással öli meg áldozatát.
+                </li>
+            </ul>
+        </article>
+        <article id="food" class="content">
+            <h3>Kaja</h3>
+            <ul>
+                <li>
+                    Elsősorban élő eleséget fogyaszt, ami azt jelenti, hogy különféle, rovarok fogják kitenni
+                    étkezései nagy hányadát, mint a sáskák, tücskök, csótányok, hernyók és lárvák.
+                </li>
+                <li>
+                    Létfontosságú, hogy folyamatosan biztosítsuk a kisállatnak a folyamatos kalcium- és
+                    vitaminbevitelt.
+                </li>
+            </ul>
+        </article>
+        <article id="enviroment" class="content">
+            <h3>Kornyezet</h3>
+            <ul>
+                <li>
+                    A föld nagy részét egy kényelmes, kellően mély és széles medence tegye ki, amiben kedvére
+                    fürdőzhet a kisállat – ez elengedhetetlen!
+                </li>
+                <li>
+                    Természetesen több agámánál nagyobb helyre van szükség, ezt nem árt észben tartani.
+                </li>
+                <li>
+                    Magas hőt (~26-31 fok) és páratartalmat (kb. 60-70%) igényel.
+                </li>
+            </ul>
+            <section>
+                <h4>Vigyázat! </h4>
+                Remekül tartható egyedül is, ugyanis nem igényli a fajtársai társaságát, viszont ha egyszerre
+                akár többet szeretnénk tartani, akkor egy hímmel ne tegyünk össze másik hímet, és nőstényből
+                legalább kettőt adjunk neki.
+            </section>
+        </article>
+        <article id="breed" class="content">
+            <h3>Gondozás</h3>
+            <ul>
+                <li>
+                    Mindig mossunk kezet az állat megfogása előtt és után is,
+                </li>
+                <li>
+                    Etessük kézből, így könnyebben hozzászokik a látványunkhoz, és megjegyzi, hogy mi a barátai vagyunk
+                </li>
+                <li>
+                    Sose emeljük fel a farkánál fogva és ne szorítsuk meg a testét
+                </li>
+                <li>
+                    Mindig alulról közelítsük meg, ne felülről/hátulról és semmiképpen se hirtelen!
+                </li>
+                <li>
+                    Az állat számára idegen embereknek ne engedjük, hogy hozzáérjenek
+                </li>
+            </ul>
+        </article>
+
+    </div>
+        <div class="side_notes">
+            <h2>Galéria</h2>
+            <a target="_blank" href="Images/viziathumb.jpg">
+                <img src="Images/viziathumb.jpg" alt="vizi agama kép">
+              </a> 
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------------------------------------------------------------------------------------->
+    <div class="footer">
+        <script src="script.js"></script>
+        <div class="holder">
+            <div class="line"></div>
+            <div class="logo_holder">
+                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
+                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
+                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
+                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+        <table class="footer_menu">
+            <tr>
+                <td>
+                    <a href="index.html" class="menu_choice"> Kezdőlap </a>
+                </td>
+                <td>
+                    <a href="form.html" class="menu_choice"> Értékeljen </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="table.html" class="menu_choice"> Táblázat </a>
+                </td>
+                <td>
+                    <a href="#" class="menu_choice"> A tetejére </a>
+                </td>
+            </tr>
+        </table>
+        <footer>Készitette : Gál Attila  <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+    </div>
+</body>
+
+
+</html>
