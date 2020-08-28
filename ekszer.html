@@ -16,36 +16,71 @@
         <h2 class="rejtett">Ugrás az oldalon belül</h2>
         <a href="#text_box"> Ugrás a tartalomra</a>
       </nav>
-    <div class="menu_bar" style="top: 0;">
-        <div id="logo">
-            <i class="fas fa-dragon"></i>
-        </div>
-        <div class="menu_group">
-            <a href="index.html" class="menu_choice">Kezdőlap</a>
-            <button type="button" class="menu_choice"> Pikkelyesek </button>
-            <div class="sub menu_bar" style="top: 60px">
-                <a href="gabona.html" class="menu_choice">Gabonasikló </a>
-                <a href="kiralys.html" class="menu_choice"> Királysikló </a>
-                <a href="kiralyp.html" class="menu_choice"> Király piton </a>
-            </div>
-            <button type="button" class="menu_choice"> Gyíkok </button>
-            <div class="sub menu_bar" style="top: 60px">
-                <a href="vizia.html" class="menu_choice"> Viziagáma </a>
-                <a href="leopard.html" class="menu_choice"> Leopárd gekkó </a>
-                <a href="szakallas.html" class="menu_choice"> Szakállas agáma </a>
-                <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a>
-            </div>
-            <button type="button" class="menu_choice"> Teknősök </button>
-            <div class="sub menu_bar" style="top: 60px">
-                <a href="ekszer.html" class="menu_choice"> Ékszer teknős </a>
-                <a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a>
-            </div>
-            <a href="table.html" class="menu_choice"> Táblázat </a>
-        </div>
-        <div class="rateUs">
-            <a href="form.html" class="menu_choice"> Értékeljen </a>
-        </div>
-    </div>
+    <div id="overlay"></div>
+      <div id="navigation-hud">
+          <div id="side-nav" class="closed">
+              <div class="menu-toggle" onclick="toggleMenu()">
+                  <div class="button-element"></div>
+              </div>
+              <a href="form.html" class="menu_btn"> Rate Us </a>
+              <a href="table.html" class="menu_btn"> Táblázat </a>
+              <a href="index.html" class="menu_btn">Kezdőlap</a>
+              <div id="menu-table-wrapper" class="hidden">
+                  <table>
+                      <tr>
+                          <th>Pikkelyesek</th>
+                          <th>Gyíkok</th>
+                          <th>Teknősök</th>
+                      </tr>
+                      <tr>
+                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+  
+                      </tr>
+                      <tr>
+                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                      </tr>
+                  </table>
+  
+                  <ul class="menu_list">
+                      <li>Pikkelyesek
+                          <ul>
+                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                          </ul>
+                      </li>
+                      <li>Gyíkok
+                          <ul>
+                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                          </ul>
+                      </li>
+                      <li>Teknősök
+                          <ul>
+                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                          </ul>
+                      </li>
+  
+                  </ul>
+              </div>
+          </div>
+      </div>
+      </div>
     <!------------------------------------------------------------------------------------->
     <div class="background" id="ekszer">
         <h1>Ékszer teknős</h1>
