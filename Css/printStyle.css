@@ -1,0 +1,21 @@
+@media print{
+    #tartalomugras , #overlay , #navigation-hud , .footer_menu, .holder ,#options_bar{
+        display: none;
+    }
+    .body{
+        color: black !important;
+    }
+    .background::after{
+        content: url("../Images/main_back.jpg");
+    }
+
+    .video_holder{
+        width: 100%;
+        content: url("../Images/snapshot.jpg") !important;
+    }
+    .video_holder video{
+       display: none;
+       
+    }
+       
+}
