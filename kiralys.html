@@ -5,88 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/printStyle.css">
 
     <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
-    <title>Királysikló</title>
+    <title>Hüllők-Királysikló</title>
 </head>
 
 <body>
-    <!------------------------------------------------------------------------------------->
+
+
+
+
+
     <nav id="tartalomugras">
         <h2 class="rejtett">Ugrás az oldalon belül</h2>
-        <a href="#text_box"> Ugrás a tartalomra</a>
-      </nav>
-      <div id="overlay"></div>
-      <div id="navigation-hud">
-          <div id="side-nav" class="closed">
-              <div class="menu-toggle" onclick="toggleMenu()">
-                  <div class="button-element"></div>
-              </div>
-              <a href="form.html" class="menu_btn"> Rate Us </a>
-              <a href="table.html" class="menu_btn"> Táblázat </a>
-              <a href="index.html" class="menu_btn">Kezdőlap</a>
-              <div id="menu-table-wrapper" class="hidden">
-                  <table>
-                      <tr>
-                          <th>Pikkelyesek</th>
-                          <th>Gyíkok</th>
-                          <th>Teknősök</th>
-                      </tr>
-                      <tr>
-                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
-                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
-                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
-  
-                      </tr>
-                      <tr>
-                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
-                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
-                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
-                      </tr>
-                      <tr>
-                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
-                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
-                      </tr>
-                      <tr>
-                          <td></td>
-                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
-                      </tr>
-                  </table>
-  
-                  <ul class="menu_list">
-                      <li>Pikkelyesek
-                          <ul>
-                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
-                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
-                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
-                          </ul>
-                      </li>
-                      <li>Gyíkok
-                          <ul>
-                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
-                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
-                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
-                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
-                          </ul>
-                      </li>
-                      <li>Teknősök
-                          <ul>
-                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
-                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
-                          </ul>
-                      </li>
-  
-                  </ul>
-              </div>
-          </div>
-      </div>
-      </div>
-    <!------------------------------------------------------------------------------------->
-    <div class="background" id="kiralys">
-        <h1>Királysikló</h1>
-    </div>
+        <a href="#background"> Ugrás a tartalomra</a>
+    </nav>
+    <div id="overlay"></div>
+    <nav id="navigation-hud">
+        <div id="side-nav" class="closed">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="button-element"></div>
+            </div>
+            <a href="form.html" class="menu_btn"> Rate Us </a>
+            <a href="table.html" class="menu_btn"> Táblázat </a>
+            <a href="index.html" class="menu_btn">Kezdőlap</a>
+            <div id="menu-table-wrapper" class="hidden">
+                <table>
+                    <tr>
+                        <th>Pikkelyesek</th>
+                        <th>Gyíkok</th>
+                        <th>Teknősök</th>
+                    </tr>
+                    <tr>
+                        <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                        <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                        <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="kiralys.html" class="menu_choice current_page"> Királysikló </a></td>
+                        <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                        <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                        <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <ul class="menu_list">
+                    <li>Pikkelyesek
+                        <ul>
+                            <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                            <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                            <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                        </ul>
+                    </li>
+                    <li>Gyíkok
+                        <ul>
+                            <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                            <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                            <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                            <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                        </ul>
+                    </li>
+                    <li>Teknősök
+                        <ul>
+                            <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                            <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <header>
+        <div class="background" id="kiralys">
+            <h1>Királysikló</h1>
+            <h2>Lampropeltis getula</h2>
+        </div>
+    </header>
     <div class="info_wrapper">
-        <div class="text_box" scrolling="yes">
+        <div class="text_box">
             <div id="options_bar">
                 <button class="option_choice" onclick="openContent(event,'info')" id="defaultContent"><i
                         class="fas fa-info"></i></button>
@@ -94,108 +108,154 @@
                         class="fas fa-utensils"></i></button>
                 <button class="option_choice" onclick="openContent(event,'enviroment')"><i
                         class="fas fa-thermometer-three-quarters"></i><i class="fas fa-leaf"></i></button>
-                <button class="option_choice" onclick="openContent(event,'breed')"><i
-                        class="fas fa-heart"></i></button>
+                <button class="option_choice" onclick="openContent(event,'breed')"><i class="fas fa-heart"></i></button>
             </div>
-            <article id="info" class="content">
-                <h2>Info</h2>
+            <section id="info" class="content">
+                <h3>Info</h3>
                 <ul>
                     <li>
-                        A királysiklók talán az egyik legszebbek a házi kígyók közül.
+                        <p>  A királysiklók talán az egyik legszebbek a házi kígyók közül.
+                        </p>
                     </li>
                     <li>
-                        A szabadban az Észak-Amerikai földrészen található meg, egészen Kanada déli részétől
-                        Közép-Amerikáig fellelhetők különböző alfajaik.
+                        <p> A szabadban az Észak-Amerikai földrészen található meg, egészen Kanada déli részétől
+                            Közép-Amerikáig fellelhetők különböző alfajaik.
+                        </p>
+
                     </li>
                     <li>
-                        Leginkább az erdős területeken él, de kedveli a sziklásabb, nyílt mezőket is, valamint nem
-                        riadnak vissza attól, hogy istállókban rejtőzzenek el.
+                        <p>Leginkább az erdős területeken él, de kedveli a sziklásabb, nyílt mezőket is, valamint nem
+                            riadnak vissza attól, hogy istállókban rejtőzzenek el.</p>
                     </li>
                     <li>
-                        A vörös királysiklónak fantasztikus színekben pompázik a teste, általában fekete, vörös és fehér
-                        színek váltakoznak, de alfajtól függően ezek a színek változhatnak
+                        <p>A vörös királysiklónak fantasztikus színekben pompázik a teste, általában fekete, vörös és sárga
+                            színek váltakoznak, de alfajtól függően ezek a színek változhatnak. </p>
+                            <aside>
+                                <p>
+                                    A kirlysikló meglehetősen hasonlít a koral siklóra amely,egy emberre halálos kígyófajta,
+                                    a mérge képes megbénítani az idegrendszert amennyiben a marás nincs időben kezelve.
+                                    A két kígyót csupán a pikkelyek színének sorrendje különbözteti meg. Koralsiklónál ez a
+                                    minta sárga, vörös és fekete, míg a vörös Királysikló esetében sárga, fekete, vörös és
+                                    megint fekete.
+                                </p>
+                            </aside>
                     </li>
                 </ul>
-            </article>
-            <article id="food" class="content">
-                <h2>Kaja</h2>
+            </section>
+            <section id="food" class="content">
+                <h3>Kaja</h3>
                 <ul>
                     <li>
-                        Otthoni körülmények között fehér egérrel (takarmányegér) tudjuk őt etetni, abból is inkább a
-                        növendék méretűvel, fiatal sikló esetében pedig szopós egérrel.
+                        <p> Otthoni körülmények között fehér egérrel (takarmányegér) tudjuk őt etetni, abból is inkább a
+                            növendék méretűvel, fiatal sikló esetében pedig szopós egérrel.</p>
+
                     </li>
                     <li>
-                        Ezeket az egereket fagyasztott állapotban is beszerezhetjük számára, melyet kiolvasztás után
-                        szívesen elfogyaszt.
+                        <p>Ezeket az egereket fagyasztott állapotban is beszerezhetjük számára, melyet kiolvasztás után
+                        szívesen elfogyaszt.</p>
+
                     </li>
                     <li>
-                        Fogságban való etetésére teljesen alkalmas a fagyasztott egér is (felolvasztás után).
+                        <p>Fogságban való etetésére teljesen alkalmas a fagyasztott egér is (felolvasztás után).</p>
+
                     </li>
                     <li>
-                        A fiatal példányokat hetente 2-3 alkalommal etessük meg 1-2 db szopós egérrel, a kifejlett
-                        állatot viszont már elég hetente egyszer megetetni, ilyenkor 1-3 egeret adjunk neki, az egér
-                        méretétől függően.
+                        <p>A fiatal példányokat hetente 2-3 alkalommal etessük meg 1-2 db szopós egérrel, a kifejlett
+                            állatot viszont már elég hetente egyszer megetetni, ilyenkor 1-3 egeret adjunk neki, az egér
+                            méretétől függően.</p>
+
                     </li>
                     <li>
-                        . A siklóféléket patkánnyal nem ajánlott etetni, ugyanis magas zsírtartalmuk káros hatással
-                        lehet az egészségükre.
+                        <p> A siklóféléket patkánnyal nem ajánlott etetni, ugyanis magas zsírtartalmuk káros hatással
+                            lehet az egészségükre.</p>
+
                     </li>
                 </ul>
-            </article>
-            <article id="enviroment" class="content">
-                <h2>Kornyezet</h2>
+            </section>
+            <section id="enviroment" class="content">
+                <h3>Kornyezet</h3>
                 <ul>
                     <li>
-                        A vörös királysiklók nyugodtan tartható párban, nem bántják egymást
+                        <p>
+                            A vörös királysiklók nyugodtan tartható párban, nem bántják egymást
+                        </p>
+
                     </li>
                     <li>
-                        Mivel ez az állat leginkább a melegebb éghajlatot kedveli, ezért a terráriumát is erre való
-                        tekintettel kell elrendezni.
+                        <p> Mivel ez az állat leginkább a melegebb éghajlatot kedveli, ezért a terráriumát is erre való
+                            tekintettel kell elrendezni.</p>
+
                     </li>
                     <li>
-                        A legjobb, ha a hőmérséklet nappal 26-27 fokos, este pedig nem megy le 22 fok alá.
+                        <p>A legjobb, ha a hőmérséklet nappal 26-27 fokos, este pedig nem megy le 22 fok alá.</p>
+
                     </li>
                     <li>
-                        A páratartalom 50% és 60% között legyen.
+                        <p>A páratartalom 50% és 60% között legyen.
+                        </p>
+
                     </li>
                     <li>
-                        Aljzatnak mindenképpen természetes közeget válasszunk, például fenyőkérget, kókuszrostot.
+                        <p>
+                            Aljzatnak mindenképpen természetes közeget válasszunk, például fenyőkérget, kókuszrostot.
+                        </p>
+
                     </li>
                     <li>
-                        A terrárium mérete 60 x 50 x 30 cm legyen fiatal állatnál, kifejlettnél pedig legalább 80 x 60 x
+                        <p>
+                            A terrárium mérete 60 x 50 x 30 cm legyen fiatal állatnál, kifejlettnél pedig legalább 80 x 60 x
                         35 cm.
+                        </p>
+
                     </li>
                     <li>
-                        A terráriumnál nagyon fontos, hogy jól szellőzzön, és biztosítva legyen, hogy a kígyó ne tudjon
-                        kiszökni.
+                        <p>A terráriumnál nagyon fontos, hogy jól szellőzzön, és biztosítva legyen, hogy a kígyó ne tudjon
+                            kiszökni.</p>
+
                     </li>
                 </ul>
-            </article>
-            <article id="breed" class="content">
-                <h2>Gondozás</h2>
+            </section>
+            <section id="breed" class="content">
+                <h3>Gondozás</h3>
                 <ul>
                     <li>
-                        A vörös királysikló könnyen tartható és barátságos állat, ezért bátran tarthatják kezdők is.
+                        <p>
+                            A vörös királysikló könnyen tartható és barátságos állat, ezért bátran tarthatják kezdők is.
+                        </p>
+
                     </li>
                     <li>
-                        Általában könnyen kezelhető, békés kígyó, de a fiatalok idegesek, kézbe fogva
-                        fejükkel csapkodnak.
+                        <p>
+                            Általában könnyen kezelhető, békés kígyó, de a fiatalok idegesek, kézbe fogva
+                            fejükkel csapkodnak.
+                        </p>
+
                     </li>
                     <li>
-                        Nem harapós.
+                        <p>
+                            Nem harapós.
+                        </p>
+
                     </li>
                     <li>
-                        Az állattal való foglakozás után mindig alaposan mossunk kezet!
+                        <p>
+                            Az állattal való foglakozás után mindig alaposan mossunk kezet!
+                        </p>
+
                     </li>
                 </ul>
-            </article>
+            </section>
 
         </div>
         <div class="side_notes">
             <h2>Galéria</h2>
-            <a target="_blank" href="Images/kiralysthumb.jpg">
-                <img src="Images/kiralysthumb.jpg" alt="királysiklo kép">
-              </a>       
+            <figure>
+                <a target="_blank" href="Images/kiralysthumb.jpg">
+                    <img src="Images/kiralysthumb.jpg" alt="királysiklo kép">
+                </a>
+                <figcaption>Királysikló</figcaption>
+            </figure>
+            
         </div>
     </div>
 
@@ -204,19 +264,17 @@
 
 
 
-    <!------------------------------------------------------------------------------------->
+
 
     <div class="footer">
-        <script src="script.js"></script>
         <div class="holder">
             <div class="line"></div>
             <div class="logo_holder">
-                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
-                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
-                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
-                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
-                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+                <a href="https://www.paypal.com/hu/home" target="_blank"><i class="fab fa-paypal"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
         <table class="footer_menu">
@@ -227,8 +285,6 @@
                 <td>
                     <a href="form.html" class="menu_choice"> Értékeljen </a>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <a href="table.html" class="menu_choice"> Táblázat </a>
                 </td>
@@ -237,9 +293,9 @@
                 </td>
             </tr>
         </table>
-        <footer>Készitette : Gál Attila  <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+        <footer>Készitette : Gál Attila <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
     </div>
+    <script src="script.js" type="text/javascript"> </script>
 </body>
-
 
 </html>

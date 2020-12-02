@@ -5,86 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/printStyle.css">
 
     <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
-    <title>Szakállas agáma</title>
+    <title>Hüllők-Szakállas agáma</title>
 </head>
 
 <body>
-    <!------------------------------------------------------------------------------------->
+
+
+
+
+
     <nav id="tartalomugras">
         <h2 class="rejtett">Ugrás az oldalon belül</h2>
-        <a href="#text_box"> Ugrás a tartalomra</a>
-      </nav>
-      <div id="overlay"></div>
-      <div id="navigation-hud">
-          <div id="side-nav" class="closed">
-              <div class="menu-toggle" onclick="toggleMenu()">
-                  <div class="button-element"></div>
-              </div>
-              <a href="form.html" class="menu_btn"> Rate Us </a>
-              <a href="table.html" class="menu_btn"> Táblázat </a>
-              <a href="index.html" class="menu_btn">Kezdőlap</a>
-              <div id="menu-table-wrapper" class="hidden">
-                  <table>
-                      <tr>
-                          <th>Pikkelyesek</th>
-                          <th>Gyíkok</th>
-                          <th>Teknősök</th>
-                      </tr>
-                      <tr>
-                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
-                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
-                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
-  
-                      </tr>
-                      <tr>
-                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
-                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
-                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
-                      </tr>
-                      <tr>
-                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
-                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
-                      </tr>
-                      <tr>
-                          <td></td>
-                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
-                      </tr>
-                  </table>
-  
-                  <ul class="menu_list">
-                      <li>Pikkelyesek
-                          <ul>
-                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
-                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
-                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
-                          </ul>
-                      </li>
-                      <li>Gyíkok
-                          <ul>
-                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
-                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
-                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
-                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
-                          </ul>
-                      </li>
-                      <li>Teknősök
-                          <ul>
-                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
-                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
-                          </ul>
-                      </li>
-  
-                  </ul>
-              </div>
-          </div>
-      </div>
-      </div>
-    <!------------------------------------------------------------------------------------->
-    <div class="background" id="szakallas">
-        <h1>Szakállas agáma</h1>
-    </div>
+        <a href="#background"> Ugrás a tartalomra</a>
+    </nav>
+    <div id="overlay"></div>
+    <nav id="navigation-hud">
+        <div id="side-nav" class="closed">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="button-element"></div>
+            </div>
+            <a href="form.html" class="menu_btn"> Rate Us </a>
+            <a href="table.html" class="menu_btn"> Táblázat </a>
+            <a href="index.html" class="menu_btn">Kezdőlap</a>
+            <div id="menu-table-wrapper" class="hidden">
+                <table>
+                    <tr>
+                        <th>Pikkelyesek</th>
+                        <th>Gyíkok</th>
+                        <th>Teknősök</th>
+                    </tr>
+                    <tr>
+                        <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
+                        <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                        <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                        <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                        <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                        <td><a href="szakallas.html" class="menu_choice current_page"> Szakállas agáma </a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <ul class="menu_list">
+                    <li>Pikkelyesek
+                        <ul>
+                            <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                            <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                            <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                        </ul>
+                    </li>
+                    <li>Gyíkok
+                        <ul>
+                            <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                            <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                            <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                            <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                        </ul>
+                    </li>
+                    <li>Teknősök
+                        <ul>
+                            <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                            <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <header>
+        <div class="background" id="szakallas">
+            <h1>Szakállas agáma</h1>
+            <h2>Pogona vitticeps</h2>
+        </div>
+    </header>
     <div class="info_wrapper">
         <div class="text_box">
             <div id="options_bar">
@@ -94,87 +108,94 @@
                         class="fas fa-utensils"></i></button>
                 <button class="option_choice" onclick="openContent(event,'enviroment')"><i
                         class="fas fa-thermometer-three-quarters"></i><i class="fas fa-leaf"></i></button>
-                <button class="option_choice" onclick="openContent(event,'breed')"><i
-                        class="fas fa-heart"></i></button>
+                <button class="option_choice" onclick="openContent(event,'breed')"><i class="fas fa-heart"></i></button>
             </div>
-
-            <article id="info" class="content">
+            <section id="info" class="content">
                 <h3>Info</h3>
                 <ul>
                     <li>
-                        A szakállas agáma nappali életmódot folytató hüllőfaj, melynek feje háromszög alakú, teste pedig
-                        enyhén lapított, tüskékkel szegélyezett.
+                        <p>A szakállas agáma nappali életmódot folytató hüllőfaj, melynek feje háromszög alakú, teste pedig
+                        enyhén lapított, tüskékkel szegélyezett.</p>
                     </li>
                     <li>
-                        Nevét is a torkát borító tüskék felfújt állapotú szakáll-formájáról kapta.
+                        <p>Nevét is a torkát borító tüskék felfújt állapotú szakáll-formájáról kapta.</p>
                     </li>
                     <li>
-                        Izmos, erős végtagokkal rendelkezik, farka pedig a testhosszának akár a felét is elérheti (bár
-                        néhány másik gyíkfajjal ellentétben az övé nem tud visszanőni sérülés esetén).
+                        <p>Izmos, erős végtagokkal rendelkezik, farka pedig a testhosszának akár a felét is elérheti (bár
+                        néhány másik gyíkfajjal ellentétben az övé nem tud visszanőni sérülés esetén).</p>
                     </li>
-                    Nappal sziklákon, fák kitüremkedő gyökerein sütkéreznek, vadásznak, míg éjszaka pedig elbújnak
-                    aludni.
+                    <li>
+                        <p>Nappal sziklákon, fák kitüremkedő gyökerein sütkéreznek, vadásznak, míg éjszaka pedig elbújnak
+                        aludni.</p>
+                    </li>
+                    <li>
+                        <p>Nappal sziklákon, fák kitüremkedő gyökerein sütkéreznek, vadásznak, míg éjszaka pedig elbújnak
+                        aludni.</p>
+                    </li>
                 </ul>
-            </article>
-            <article id="food" class="content">
+            </section>
+            <section id="food" class="content">
                 <h3>Kaja</h3>
                 <ul>
                     <li>
-                        Mindenevők és változatosan táplálkoznak.
+                        <p>Mindenevők és változatosan táplálkoznak.</p>
                     </li>
                     <li>
-                        Normális esetben az étrendjük zöldségekből és rovarokból áll.
+                        <p>Normális esetben az étrendjük zöldségekből és rovarokból áll.</p>
                     </li>
                     <li>
-                        Ha a rovar nagyobb, mint a két szeme közti távolság, akkor az túl nagy neki.
+                        <p>Ha a rovar nagyobb, mint a két szeme közti távolság, akkor az túl nagy neki.</p>
                     </li>
                     <li>
-                        A felnőtteket két - háromnaponta egyszer elég rovarokkal etetni,viszont a növények képezik a
-                        szakállás agámák és sok már hüllő étrendjének az alapját.
+                        <p>A felnőtteket két - háromnaponta egyszer elég rovarokkal etetni,viszont a növények képezik a
+                        szakállás agámák és sok már hüllő étrendjének az alapját.</p>
                     </li>
                 </ul>
-            </article>
-            <article id="enviroment" class="content">
+            </section>
+            <section id="enviroment" class="content">
                 <h3>Kornyezet</h3>
                 <ul>
                     <li>
-                        A baba agámáknak elég egy 75 literes terrárium. Ez elég mozgásteret ad nekik és megkönnyíti a
-                        étel elkapását.
+                        <p>A baba agámáknak elég egy 75 literes terrárium. Ez elég mozgásteret ad nekik és megkönnyíti a
+                        étel elkapását.</p>
                     </li>
                     <li>
-                        A serdülő agámáknak legalább egy 150 literes terráriumra van szükségük. Azonban minél nagyobb a
-                        terrárium, annál boldogabb lesz a szaki és annál nagyobbra fog nőni.
+                        <p>A serdülő agámáknak legalább egy 150 literes terráriumra van szükségük. Azonban minél nagyobb a
+                        terrárium, annál boldogabb lesz a szaki és annál nagyobbra fog nőni.</p>
                     </li>
                     <li>
-                        A nagyobb agámáknak nagyobb terrárium kell, az ajánlott méret ekkora agámáknak 190-280 liter.
+                        <p>A nagyobb agámáknak nagyobb terrárium kell, az ajánlott méret ekkora agámáknak 190-280 liter.</p>
                     </li>
                     <li>
-                        Ha van egy agámád, ami 50 cm vagy a feletti a minimum méret a 280 liter, de 450 liter lenne az
-                        ideális.
+                        <p>Ha van egy agámád, ami 50 cm vagy a feletti a minimum méret a 280 liter, de 450 liter lenne az
+                        ideális.</p>
                     </li>
-
                 </ul>
-            </article>
-            <article id="breed" class="content">
+            </section>
+            <section id="breed" class="content">
                 <h3>Gondozás</h3>
                 <ul>
                     <li>
-                        Kiváló háziállat válik belőlük. Könnyen tarthatóak, szelídek és aránylag kis helyet foglalnak.
+                        <p>Kiváló háziállat válik belőlük. Könnyen tarthatóak, szelídek és aránylag kis helyet foglalnak.</p>
                     </li>
                     <li>
-                        A fiatal egyedek nagyon jól kijönnek egymással, azonban a felnőtt egyedeket jobb elválasztani
+                        <p>A fiatal egyedek nagyon jól kijönnek egymással, azonban a felnőtt egyedeket jobb elválasztani
                         egymástól. Előfordulhat, hogy felnőtt nőstények minden probléma nélkül tarthatóak együtt, de a
-                        hímeket jobb egyedül tartani.
+                        hímeket jobb egyedül tartani.</p>
                     </li>
                 </ul>
-            </article>
+            </section>
 
         </div>
         <div class="side_notes">
             <h2>Galéria</h2>
-            <a target="_blank" href="Images/szakallasthumb.jpg">
-                <img src="Images/szakallasthumb.jpg" alt="szakallas agama kép">
-              </a> 
+            <figure>
+                <a target="_blank" href="Images/szakallasthumb.jpg">
+                    <img src="Images/szakallasthumb.jpg" alt="Kép egy Szakállas agámáról">
+                </a>
+                <figcaption>Szakállas agáma</figcaption>
+            </figure>
+            
         </div>
     </div>
 
@@ -183,18 +204,17 @@
 
 
 
-    <!------------------------------------------------------------------------------------->
+
+
     <div class="footer">
-        <script src="script.js"></script>
         <div class="holder">
             <div class="line"></div>
             <div class="logo_holder">
-                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
-                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
-                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
-                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
-                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+                <a href="https://www.paypal.com/hu/home" target="_blank"><i class="fab fa-paypal"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
         <table class="footer_menu">
@@ -205,8 +225,6 @@
                 <td>
                     <a href="form.html" class="menu_choice"> Értékeljen </a>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <a href="table.html" class="menu_choice"> Táblázat </a>
                 </td>
@@ -215,9 +233,9 @@
                 </td>
             </tr>
         </table>
-        <footer>Készitette : Gál Attila  <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+        <footer>Készitette : Gál Attila <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
     </div>
+    <script src="script.js" type="text/javascript"> </script>
 </body>
-
 
 </html>

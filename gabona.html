@@ -5,90 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/printStyle.css">
 
     <script src="https://kit.fontawesome.com/5f4176d452.js" crossorigin="anonymous"></script>
-    <title>Gabonasikló</title>
+    <title>Hüllők-Gabonasikló</title>
 </head>
 
 <body>
-    <!------------------------------------------------------------------------------------->
+
+
+
+
+
     <nav id="tartalomugras">
         <h2 class="rejtett">Ugrás az oldalon belül</h2>
-        <a href="#text_box"> Ugrás a tartalomra</a>
-      </nav>
-      <div id="overlay"></div>
-      <div id="navigation-hud">
-          <div id="side-nav" class="closed">
-              <div class="menu-toggle" onclick="toggleMenu()">
-                  <div class="button-element"></div>
-              </div>
-              <a href="form.html" class="menu_btn"> Rate Us </a>
-              <a href="table.html" class="menu_btn"> Táblázat </a>
-              <a href="index.html" class="menu_btn">Kezdőlap</a>
-              <div id="menu-table-wrapper" class="hidden">
-                  <table>
-                      <tr>
-                          <th>Pikkelyesek</th>
-                          <th>Gyíkok</th>
-                          <th>Teknősök</th>
-                      </tr>
-                      <tr>
-                          <td> <a href="gabona.html" class="menu_choice">Gabonasikló </a></td>
-                          <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
-                          <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
-  
-                      </tr>
-                      <tr>
-                          <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
-                          <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
-                          <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
-                      </tr>
-                      <tr>
-                          <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
-                          <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
-                      </tr>
-                      <tr>
-                          <td></td>
-                          <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
-                      </tr>
-                  </table>
-  
-                  <ul class="menu_list">
-                      <li>Pikkelyesek
-                          <ul>
-                              <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
-                              <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
-                              <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
-                          </ul>
-                      </li>
-                      <li>Gyíkok
-                          <ul>
-                              <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
-                              <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
-                              <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
-                              <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
-                          </ul>
-                      </li>
-                      <li>Teknősök
-                          <ul>
-                              <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
-                              <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
-                          </ul>
-                      </li>
-  
-                  </ul>
-              </div>
-          </div>
-      </div>
-      </div>
-    <!------------------------------------------------------------------------------------->
+        <a href="#background"> Ugrás a tartalomra</a>
+    </nav>
+    <div id="overlay"></div>
+    <nav id="navigation-hud">
+        <div id="side-nav" class="closed">
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="button-element"></div>
+            </div>
+            <a href="form.html" class="menu_btn"> Rate Us </a>
+            <a href="table.html" class="menu_btn"> Táblázat </a>
+            <a href="index.html" class="menu_btn">Kezdőlap</a>
+            <div id="menu-table-wrapper" class="hidden">
+                <table>
+                    <tr>
+                        <th>Pikkelyesek</th>
+                        <th>Gyíkok</th>
+                        <th>Teknősök</th>
+                    </tr>
+                    <tr>
+                        <td> <a href="gabona.html" class="menu_choice current_page">Gabonasikló </a></td>
+                        <td><a href="vizia.html" class="menu_choice"> Viziagáma </a></td>
+                        <td><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="kiralys.html" class="menu_choice"> Királysikló </a></td>
+                        <td><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></td>
+                        <td><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="kiralyp.html" class="menu_choice"> Király piton </a></td>
+                        <td><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td> <a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <ul class="menu_list">
+                    <li>Pikkelyesek
+                        <ul>
+                            <li><a href="gabona.html" class="menu_choice">Gabonasikló </a></li>
+                            <li><a href="kiralys.html" class="menu_choice"> Királysikló </a></li>
+                            <li><a href="kiralyp.html" class="menu_choice"> Király piton </a></li>
+                        </ul>
+                    </li>
+                    <li>Gyíkok
+                        <ul>
+                            <li><a href="vizia.html" class="menu_choice"> Viziagáma </a></li>
+                            <li><a href="leopard.html" class="menu_choice"> Leopárd gekkó </a></li>
+                            <li><a href="szakallas.html" class="menu_choice"> Szakállas agáma </a></li>
+                            <li><a href="parduc.html" class="menu_choice"> Párduc Kaméleon </a></li>
+                        </ul>
+                    </li>
+                    <li>Teknősök
+                        <ul>
+                            <li><a href="ekszer.html" class="menu_choice"> Ékszer teknős </a></li>
+                            <li><a href="kirgiz.html" class="menu_choice"> Kirgiz teknős </a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
     <header>
         <div class="background" id="gabona">
             <h1>Gabonasikló</h1>
+            <h2>Elaphe guttata</h2>
         </div>
     </header>
     <div class="info_wrapper">
-        <div class="text_box" scrolling="yes">
+        <div class="text_box">
             <div id="options_bar">
                 <button class="option_choice" onclick="openContent(event,'info')" id="defaultContent"><i
                         class="fas fa-info"></i></button>
@@ -96,108 +108,154 @@
                         class="fas fa-utensils"></i></button>
                 <button class="option_choice" onclick="openContent(event,'enviroment')"><i
                         class="fas fa-thermometer-three-quarters"></i><i class="fas fa-leaf"></i></button>
-                <button class="option_choice" onclick="openContent(event,'breed')"><i
-                        class="fas fa-heart"></i></button>
+                <button class="option_choice" onclick="openContent(event,'breed')"><i class="fas fa-heart"></i></button>
             </div>
-            <article id="info" class="content">
+            <section id="info" class="content">
                 <h3>Info</h3>
                 <ul>
                     <li>
-                        A gabonasikló remek választás kezdő hüllőtartóknak, vagy akár kisgyerekek számára is, hiszen egy
-                        nagyon szelíd és barátságos csúszómászó.
+                        <p> A gabonasikló remek választás kezdő hüllőtartóknak, vagy akár kisgyerekek számára is, hiszen
+                            egy
+                            nagyon szelíd és barátságos csúszómászó.
+                        </p>
                     </li>
                     <li>
-                        Nagyon könnyen kezelhető és túl nagyra sem nő, így bátran válasszuk házi kedvenc gyanánt.
+                        <p> Nagyon könnyen kezelhető és túl nagyra sem nő, így bátran válasszuk házi kedvenc gyanánt.
+                        </p>
+
                     </li>
                     <li>
-                        Eredeti élőhelye Észak-Amerika, annak is az emberi nyüzsgéstől távolabbi részei, sűrű növényzetű
-                        területek, mezők, elhagyatott épületek.
+                        <p>Eredeti élőhelye Észak-Amerika, annak is az emberi nyüzsgéstől távolabbi részei, sűrű
+                            növényzetű
+                            területek, mezők, elhagyatott épületek.</p>
                     </li>
                     <li>
-                        A többi siklóhoz hasonlóan a gabonasikló sem rendelkezik méreggel, áldozatát fojtással öli meg.
+                        <p>A többi siklóhoz hasonlóan a gabonasikló sem rendelkezik méreggel, áldozatát fojtással öli
+                            meg.</p>
                     </li>
                 </ul>
-            </article>
-            <article id="food" class="content">
+            </section>
+            <section id="food" class="content">
                 <h3>Kaja</h3>
                 <ul>
                     <li>
-                        A gabonasikló étrendjét kistestű emlősök teszik ki főleg, mint a patkány, egér és egyéb
-                        rágcsálók, de a szabadban vadászik kisebb madarakra is.
+                        <p> A gabonasikló étrendjét kistestű emlősök teszik ki főleg, mint a patkány, egér és egyéb
+                            rágcsálók, de a szabadban vadászik kisebb madarakra is.</p>
+
                     </li>
                     <li>
-                        Általában éjszaka aktív, de ez fogságban változhat.
+                        <p>Általában éjszaka aktív, de ez fogságban változhat.</p>
+
                     </li>
                     <li>
-                        Fogságban való etetésére teljesen alkalmas a fagyasztott egér is (felolvasztás után).
+                        <p>Fogságban való etetésére teljesen alkalmas a fagyasztott egér is (felolvasztás után).</p>
+
                     </li>
                     <li>
-                        A kisebb gabonasiklót eleinte csak hetente egyszer kell etetni (utána egy napig tilos hozzáérni,
-                        nehogy felöklendezze az eleséget).
+                        <p>A kisebb gabonasiklót eleinte csak hetente egyszer kell etetni (utána egy napig tilos
+                            hozzáérni,
+                            nehogy felöklendezze az eleséget).</p>
+
                     </li>
                     <li>
-                        Ha több siklót tartunk egy helyen, akkor vegyük őket külön az etetés idejére, nehogy véletlenül
-                        egyszerre menjenek rá ugyanarra az egérre.
+                        <p>Ha több siklót tartunk egy helyen, akkor vegyük őket külön az etetés idejére, nehogy
+                            véletlenül
+                            egyszerre menjenek rá ugyanarra az egérre.</p>
+
                     </li>
                 </ul>
-            </article>
-            <article id="enviroment" class="content">
+            </section>
+            <section id="enviroment" class="content">
                 <h3>Kornyezet</h3>
                 <ul>
                     <li>
-                        Ha figyelünk a gabonasikló egészségére és megfelelő körülményeket biztosítunk neki, akkor akár
-                        16-20 évig is élhet, de ritkán előfordulhat ennél idősebb állat is.
+                        <p>
+                            Ha figyelünk a gabonasikló egészségére és megfelelő körülményeket biztosítunk neki, akkor
+                            akár
+                            16-20 évig is élhet, de ritkán előfordulhat ennél idősebb állat is.
+                        </p>
+
                     </li>
                     <li>
-                        A gabonasikló egy igazi szabadulóművész. Ennek tudatában vásároljunk és alakítsunk ki számára
-                        terráriumot, ügyeljünk rá, hogy ne tudjon kijutni.
+                        <p>A gabonasikló egy igazi szabadulóművész. Ennek tudatában vásároljunk és alakítsunk ki számára
+                            terráriumot, ügyeljünk rá, hogy ne tudjon kijutni.</p>
+
                     </li>
                     <li>
-                        Több állat is tartható együtt, nem bántják egymást.
+                        <p>Több állat is tartható együtt, nem bántják egymást.</p>
+
                     </li>
                     <li>
-                        A terrárium mindenképpen rendelkezzen szellőzővel, és méretei 80x40x40, vagy akörüli legyen.
+                        <p>A terrárium mindenképpen rendelkezzen szellőzővel, és méretei 80x40x40, vagy akörüli legyen.
+                        </p>
+
                     </li>
                     <li>
-                        A hőmérsékletre is természetesen oda kell figyelni, úgy, hogy a terráriumban legyen egy hűvösebb
-                        rész is, és egy 30 °C körüli rész is.
+                        <p>
+                            A hőmérsékletre is természetesen oda kell figyelni, úgy, hogy a terráriumban legyen egy
+                            hűvösebb
+                            rész is, és egy 30 °C körüli rész is.
+                        </p>
+
                     </li>
                     <li>
-                        Dekorálhatjuk steril faágakkal, kövekkel, valamint alomnak természetes anyagokat használjunk.
+                        <p>
+                            Dekorálhatjuk steril faágakkal, kövekkel, valamint alomnak természetes anyagokat
+                            használjunk.
+                        </p>
+
                     </li>
                     <li>
-                        Helyezzünk el neki egy búvóhelyet is, és egy vizestálat , akkorát, amekkorában kedvére meg tud
-                        mártózni.
+                        <p>Helyezzünk el neki egy búvóhelyet is, és egy vizestálat , akkorát, amekkorában kedvére meg
+                            tud
+                            mártózni.</p>
+
                     </li>
                 </ul>
-            </article>
-            <article id="breed" class="content">
+            </section>
+            <section id="breed" class="content">
                 <h3>Gondozás</h3>
                 <ul>
                     <li>
-                        Ha már kicsi kora óta velünk van, akkor nem lesz nehéz dolgunk (egyébként sem) a kézhez
-                        szoktatással.
+                        <p>
+                            Ha már kicsi kora óta velünk van, akkor nem lesz nehéz dolgunk (egyébként sem) a kézhez
+                            szoktatással.
+                        </p>
+
                     </li>
                     <li>
-                        Vegyük rendszeresen, de óvatosan kézbe az állatot, és így nem lesz gond azzal, hogy hozzánk
-                        szokjon.
+                        <p>
+                            Vegyük rendszeresen, de óvatosan kézbe az állatot, és így nem lesz gond azzal, hogy hozzánk
+                            szokjon.
+                        </p>
+
                     </li>
                     <li>
-                        Ha nagyon menekülős kedve van, akkor inkább ne piszkáljuk, ne kergessük és kerüljük el a
-                        hirtelen mozdulatokat.
+                        <p>
+                            Ha nagyon menekülős kedve van, akkor inkább ne piszkáljuk, ne kergessük és kerüljük el a
+                            hirtelen mozdulatokat.
+                        </p>
+
                     </li>
                     <li>
-                        Mindig mossunk kezet azelőtt és az után is, hogy a gabonasiklóhoz érünk.
+                        <p>
+                            Mindig mossunk kezet azelőtt és az után is, hogy a gabonasiklóhoz érünk.
+                        </p>
+
                     </li>
                 </ul>
-            </article>
+            </section>
 
         </div>
         <div class="side_notes">
             <h2>Galéria</h2>
-            <a target="_blank" href="Images/gabonathumb.jpg">
-                <img src="Images/gabonathumb.jpg" alt="gabonasiklo kép">
-              </a>              
+            <figure>
+                <a target="_blank" href="Images/gabonathumb.jpg">
+                    <img src="Images/gabonathumb.jpg" alt="Kép egy gabonasiklóról">
+                </a>
+                <figcaption>Gabonasikló</figcaption>
+            </figure>
+            
         </div>
     </div>
 
@@ -206,18 +264,17 @@
 
 
 
-    <!------------------------------------------------------------------------------------->
+
+
     <div class="footer">
-        <script src="script.js"></script>
         <div class="holder">
             <div class="line"></div>
             <div class="logo_holder">
-                <a href="https://www.paypal.com/hu/home"><i class="fab fa-paypal"></i></a>
-                <a href="www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/?hl=hu"><i class="fab fa-instagram"></i></a>
-                <a href="https://hu.pinterest.com"><i class="fab fa-pinterest"></i></a>
-                <a href="aboutme.google.com/"><i class="fab fa-google-plus-g"></i></a>
-                <a href="fb-messenger://share/?link=index.html"><i class="fas fa-share-alt"></i></a>
+                <a href="https://www.paypal.com/hu/home" target="_blank"><i class="fab fa-paypal"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=hu" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://hu.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
         <table class="footer_menu">
@@ -228,8 +285,6 @@
                 <td>
                     <a href="form.html" class="menu_choice"> Értékeljen </a>
                 </td>
-            </tr>
-            <tr>
                 <td>
                     <a href="table.html" class="menu_choice"> Táblázat </a>
                 </td>
@@ -238,8 +293,9 @@
                 </td>
             </tr>
         </table>
-        <footer>Készitette : Gál Attila  <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
+        <footer>Készitette : Gál Attila <time datetime="2020-05-07"> 2020-05-07 </time> </footer>
     </div>
+    <script src="script.js" type="text/javascript"> </script>
 </body>
 
 </html>
